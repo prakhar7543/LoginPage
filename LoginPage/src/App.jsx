@@ -44,7 +44,7 @@ function App() {
                 alignItems: "center",
               }}
             >
-              <label htmlFor="username">UserName</label>
+              <label htmlFor="username">Username</label>
               <input
                 type="text"
                 id="username"
