@@ -19,7 +19,7 @@ function App() {
 
   let handleSubmit = (e) => {
     e.preventDefault();
-    if (name === "user" || passKey === "password") {
+    if (name !== "user" || passKey !== "password") {
       setErrorMessage(true);
       setName("");
       setPassKey("");
