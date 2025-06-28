@@ -44,7 +44,7 @@ function App() {
                 alignItems: "center",
               }}
             >
-              <label htmlFor="username">UserName:</label>
+              <label htmlFor="username">UserName</label>
               <input
                 type="text"
                 id="username"
@@ -61,7 +61,7 @@ function App() {
                 alignItems: "center",
               }}
             >
-              <label htmlFor="password">Password:</label>
+              <label htmlFor="password">Password</label>
               <input
                 type="password"
                 id="password"
