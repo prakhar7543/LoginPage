@@ -26,7 +26,7 @@ function App() {
       setSuccess(false);
     } else {
       setSuccess(true);
-      errorMessage(false);
+      setErrorMessage(false);
     }
   };
 
